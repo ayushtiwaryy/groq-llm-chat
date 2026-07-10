@@ -11,7 +11,7 @@ if not my_api_key:
 client = Groq(api_key = my_api_key)
 model = "llama-3.3-70b-versatile"
 role = "user"
-prompt = "Why Hinduism is considered as the best peaceful religion to be practised in the world "
+prompt = "Which award has given to Harbhajan Singh"
 message={
     "role":role,
     "content":prompt
